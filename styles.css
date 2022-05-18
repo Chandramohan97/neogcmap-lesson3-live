@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
-:root{
-    --primary-color : red;
-    
+:root {
+    --primary-colour: #63afff;
 }
+
 body{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+   padding: 0rem 1rem;
 }
 
 .container-center{
@@ -18,4 +17,21 @@ body{
     margin: auto;
 }
 
-/** links **//
+/** links **/
+
+.link{
+    text-decoration: none;
+    padding : 0.5rem 1.5rem;
+}
+
+.primary-link{
+  background-color: var(--primary-colour);
+  border-radius: 0.5rem;
+  color : white;
+  }
+
+.secondary-link{
+    color: var(--primary-colour);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-colour);
+}
