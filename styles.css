@@ -11,6 +11,7 @@ body{
 .marg{
     margin: 0rem 0.3rem;
 }
+
 hr{
     margin: 1rem 0rem;
 }
@@ -42,5 +43,15 @@ hr{
     border: 1px solid var(--primary-colour);
 }
 
-/**Look into BEM naming conversation
+/**Look into BEM naming conversation**/
 
+/** lists**/
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    margin: 0rem 1rem;
+}
